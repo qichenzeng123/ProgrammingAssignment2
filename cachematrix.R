@@ -11,8 +11,8 @@
 
 
 
-
-## Create the matrix's inverse cache
+##/////////////////////////////////////////////////////////////////////////////////////////////
+## Create the matrix's inverse and store it. AKA cache the inverse matrix
 makeCacheMatrix <- function(x = matrix()) {
 
   temp <- NULL
@@ -30,7 +30,7 @@ list(invm = invm, pull = pull, inversematrix = inversematrix, invmatrix = invmat
 }
 
 
-
+##/////////////////////////////////////////////////////////////////////////////////////////////
 
 ## Using previous created functions to calculate an inverse matrix. In a if statement 
 ## to test if it's a matrix or return a cached data. 
@@ -47,4 +47,4 @@ cacheSolve <- function(x, ...) {
   }
 }
 
-
+##/////////////////////////////////////////////////////////////////////////////////////////////
